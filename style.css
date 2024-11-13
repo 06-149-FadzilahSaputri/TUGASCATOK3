@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background-color: #FAF6E3;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A3663;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #D8DBBD;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #B59F78;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #E1D7B7;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px #2A3663;
+    padding: 20px;
+}
+
+.biodata {
+    display: flex;
+}
+
+.container .biodata img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.perkenalan {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.perkenalan h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #2A3663;
+
+}
+
+.perkenalan p {
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.perkenalan i {
+    color: black;
+}
+
+.biodata h2 {
+    color: #B59F78;
+}
+
+.about {
+    display: flex;
+}
+
+.data {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.perkenalan h2 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #b4bcff;
+    color: #2A3663;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.contact p {
+    font-size: 24px;
+}
+
+/* unvisited link */
+a:link {
+    color: #2A3663;
+  }
+  
+  .container a:visited {
+    color: #B59F78;
+  }
+  
+.container a:hover {
+    color: #948979;
+  }
+  
+  a:active {
+    color: #B59F78;
+  }
+
+i {
+    color: #D8DBBD;
+}
+
+  i:hover {
+    color: #2A3663;
+}
